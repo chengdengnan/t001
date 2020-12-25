@@ -1,4 +1,11 @@
 git conflg --list #查看配置列表
-git conflg --global
-git conflg 
+git conflg --global email  "用户名"
+git conflg --global usernam  "邮箱"
 git status  #查看操作空间文件的状态
+
+
+git init     #初始化
+在操作空间中操作代码
+git add .    #把操作空间中所有的代码放入暂存区
+git status   #查看操作空间的状态
+git commit -m 提交说明  #把暂存区的代码提交给本地仓库
