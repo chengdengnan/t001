@@ -1,0 +1,4 @@
+git conflg --list #查看配置列表
+git conflg --global
+git conflg 
+git status  #查看操作空间文件的状态
